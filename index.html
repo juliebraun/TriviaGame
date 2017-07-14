@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Trivea Game
+            </title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+       <script
+          src="https://code.jquery.com/jquery-3.2.1.js"
+          integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+          crossorigin="anonymous"></script>
+        <script src= "./assets/javascript/app.js"></script>
+  </head>
+    <body>
+      <div class="container-fluid">
+        <div class= "row">
+          <div class="game col-lg-12 col">
+          <div class= "imagesLeft col-lg-2">
+              <img class="img-pulp col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/kill-bill-vol-1-poster-01.jpg">
+              <img class="img-pulp col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/ingloriousbastards4.jpg">
+              <img class="img-pulp col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/resvmay09.jpg">
+               <img class="img-pulp col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/2007_grindhouse_dp_poster_001.jpg">
+              <img class="img-pulp col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/Sin_City_150.jpg">
+<!--               <img class="img-pulp col-lg-12" src="http://psychicsforu.com/wp-content/uploads/psychic-readings.jpg">
+ -->          </div>
+          <div class = "game col-lg-8">
+          <div class="titleworks col-lg-12">
+          <img class="fireworks col-lg-2" src="http://blueprintmediastudios.com/wp-content/uploads/fireworks.png">
+          <div class="title"><h1>Tarantino Trivia</h1></div>
+          <img class="fireworks2 col-lg-2" src="http://blueprintmediastudios.com/wp-content/uploads/fireworks.png">
+          </div>
+          <div class="questionconent col-lg-12">
+          <div><p id="timeremaining"></p></div>
+          <p>seconds left</p>
+          <img class="dancing col-lg-4" src="https://media.giphy.com/media/cQz5MLlnP5rfa/giphy.gif">
+          <button id="start" type="button" class="btn btn-start col-lg-2">Press to Start</button>
+          <div class= "question col-lg-12"><p id="question1"></p><br><br>
+                 <button id="buttonA1" type="button" class="btn btn-A1"></button>
+                 <button id="buttonA2" type="button" class="btn btn-A2"></button>
+                 <button id="buttonA3" type="button" class="btn btn-A3"></button>
+                 <button id="buttonA4" type="button" class="btn btn-A4"></button>
+          </div>
+        <!-- <div class= "question" id="question2">Which Tarantino movie was really only half of a movie, the other half being directed by Robert Rodriguez?<br><br>
+                 <button id="B1" type="button" class="btn btn-B1"></button>Death Proof
+                 <button id="B2" type="button" class="btn btn-B2"></button>Option
+                 <button id="B3" type="button" class="btn btn-B3"></button>Option
+                 <button id="B4" type="button" class="btn btn-B4"></button>Option
+          </div>
+          <div class= "question" id="question3">Which was Tarantino's first movie to not feature the word ‘fuck’ at least 100 times? Hint: It clocked in with only 17 uses.<br><br>
+                 <button id="C1" type="button" class="btn btn-C1"></button>Option
+                 <button id="C2" type="button" class="btn btn-C2"></button>Option
+                 <button id="C3" type="button" class="btn btn-C3"></button>Option
+                 <button id="C4" type="button" class="btn btn-C4"></button>Kill Bill Vol. 1
+          </div>
+          <div class= "question" id="question4">Which Actor is featured in more Tarintino movies?<br><br>
+                 <button id="D1" type="button" class="btn btn-D1"></button>Samuel L. Jackson
+                 <button id="D2" type="button" class="btn btn-D2"></button>Harvey Keitel
+          </div>
+          <div class= "question" id="question5">True or False: Steve Buscemi plays Mr. Pink in Reservoir Dogs.<br><br>
+                 <button id="E1" type="button" class="btn btn-A1"></button>True
+                 <button id="E2" type="button" class="btn btn-A2"></button>False
+          </div>
+          <div class= "question" id="question6">Which movie does the character Honey Bunny belong?<br><br>
+                 <button id="F1" type="button" class="btn btn-F1"></button>Option
+                 <button id="F2" type="button" class="btn btn-F2"></button>Pulp Fiction
+                 <button id="F3" type="button" class="btn btn-F3"></button>Option
+                 <button id="F4" type="button" class="btn btn-F4"></button>Option
+          </div>
+        <div class= "question" id="question7">Adjusting for ticket price inflation, this movie had the highest lifetime gross earnings?<br><br>
+                 <button id="G1" type="button" class="btn btn-G1"></button>Pulp Fiction
+                 <button id="G2" type="button" class="btn btn-G2"></button>Django Unchained
+                 <button id="G3" type="button" class="btn btn-G3"></button>Kill Bill Vol. 1
+                 <button id="G4" type="button" class="btn btn-G4"></button>Inglourious Bastards
+          </div>
+          <div class= "question" id="question8">List these movies in chronological order from oldest to newest.<br><br>
+                 <button id="H1" type="button" class="btn btn-H1"></button>From Dusk Till Dawn, Jackie Brown, Pulp Fiction
+                 <button id="H2" type="button" class="btn btn-H2"></button>Pulp Fiction, From Dusk Till Dawn, Jackie Brown
+                 <button id="H3" type="button" class="btn btn-H3"></button>Jackie Brown, Pulp Fiction, From Dusk Till Dawn
+          </div>
+          <div class= "question" id="question9">True or False: The Vega Brothers, featured in both Reservoir Dogs and Pulp Fiction, are played by Samuel L. Jackson (Vincent Vega) and Michael Madsen (Vic Vega).<br><br>
+                 <button id="I1" type="button" class="btn btn-I1"></button>True
+                 <button id="I2" type="button" class="btn btn-I2"></button>False
+          </div>
+          <div class= "question" id="question10">Which Tarantino movie opens in an airport?<br><br>
+                 <button id="J1" type="button" class="btn btn-J1"></button>Jackie Brown
+                 <button id="J2" type="button" class="btn btn-J2"></button>Option
+                 <button id="J3" type="button" class="btn btn-J3"></button>Option
+                 <button id="J4" type="button" class="btn btn-J4"></button>Option<br><br>
+          </div> -->
+          <div class="scores col-lg-12">
+             <div>Correct:<p id="correct"></p></div>
+             <div>Wrong:<p id="wrong"></p></div>
+          </div>
+          </div>
+          </div>
+          <div class= "imagesRight col-lg-2">
+             <img class="img-jackie col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/gp4.jpg">
+              <img class="img-jackie col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/Quentin-Tarantino-Jackie-Brown-One-Sheet-Poster-High-Resolution-x1200.jpg">
+              <img class="img-jackie col-lg-12" src="https://s-media-cache-ak0.pinimg.com/736x/38/5b/84/385b8422c9a9fb0dbd3d9d12a291ae0d.jpg">
+              <img class="img-jackie col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/From_dusk_till_dawn_ver1.jpg">
+<!--               <img class="img-jackie col-lg-12" src="http://psychicsforu.com/wp-content/uploads/psychic-readings.jpg">
+ -->              <img class="img-jackie col-lg-12" src="http://imgs.abduzeedo.com/files/articles/tarantino/natural.jpg">
+<!--               <img class="img-jackie col-lg-12" src="http://psychicsforu.com/wp-content/uploads/psychic-readings.jpg">
+ -->        </div>
+      </div>
+    </div>
+  </body>
+  </html>

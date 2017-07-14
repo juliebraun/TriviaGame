@@ -1,0 +1,80 @@
+.game {
+/*	background-color: #FFD700;
+*/	text-align: center;
+	height: 100%;
+	float: left;
+	z-index: 1
+	color: #fff;
+	padding: 0px;
+}
+.imagesLeft {
+	float: left;
+	display: block;
+	margin-left: 0px;
+	padding-left: 0px;
+	min-height: 150px;
+	background-color: #0000ff;
+}
+.imagesRight {
+	float: right;
+	display: block;
+	margin-right: 0px;
+	min-height: 150px;
+	padding-right: 0px;
+	background-color: #dc143c;
+}
+.img-jackie {
+ float: right;
+ width: 100%;
+ padding-left: 0px;
+ min-height: 250px;
+ max-height: 250px;
+ border-width: 8px;
+ border-color: #696969;
+}
+.img-pulp {
+/*	height: 300px;
+*/	float: left;
+	width: 100%
+	padding-left: 0px;
+	padding-right: 0px;
+	min-height: 250px;
+	max-height: 250px;
+	border-color: #696969;
+}
+.dancing {
+	margin-left: 260px;
+}
+.question {
+	margin: 20px 0px 20px 0px;
+	float: left;
+	display: inline-block;
+}
+
+.btn {
+	margin: 0px 10px 0px 10px;
+}
+h1 {
+	margin: 40px 0px 30px 0px;
+	font-size: 50px;
+}
+.scores {
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+.title {
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+#start {
+	margin-left: 327px;
+	padding: 10px 0px 10px 0px;
+	border-color: #eeeeee;
+	border-width: 1px;
+	margin-top: 30px;
+}
+.titleworks {
+	padding-left: 130px;
+}
